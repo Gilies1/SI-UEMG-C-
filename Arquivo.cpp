@@ -18,5 +18,16 @@ int main()
 
        media=(nota1+nota2)/2;
 
-     cout <<"sua média e: " << media;
+     cout <<"sua média é: " << media;
+     if (media >= 6 )
+     {
+         cout << "  Parabéns você está aprovado!!";
+     }
+
+     if (media < 6)
+     {
+          cout << "  Infelizmente vocé está reprovado.";
+     }
+     
+     
 }
