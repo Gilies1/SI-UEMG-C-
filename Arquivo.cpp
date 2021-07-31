@@ -1,10 +1,13 @@
 #include <iostream>
 #include <stdio.h>
+#include <locale.h>
 
 using namespace std;
 
 int main()
 {
+    setlocale(LC_ALL, "Portuguese");
+
     int nota1,nota2,media;
 
     cout <<"digite sua nota da prova 1: ";
@@ -15,5 +18,5 @@ int main()
 
        media=(nota1+nota2)/2;
 
-     cout <<"sua media e: " << media;
+     cout <<"sua média e: " << media;
 }
